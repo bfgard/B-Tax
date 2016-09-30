@@ -73,6 +73,7 @@ def get_paths():
     paths['_TOT_CORP_IN_PATH'] = F_TOT_CORP_IN_PATH = os.path.join(_CORP_DIR, '2013sb1.csv')
     paths['_S_CORP_IN_PATH'] = _S_CORP_IN_PATH = os.path.join(_CORP_DIR, '2013sb3.csv')
     paths['_PRT_DIR'] = _PRT_DIR = os.path.join(_SOI_DIR, 'soi_partner')
+    paths['_PRT_CROSS'] = _PRT_CROSS = os.path.join(_PRT_DIR, '13pa05_Crosswalk.csv')
     paths['_DETAIL_PART_CROSS_PATH'] = _DETAIL_PART_CROSS_PATH = os.path.join(_PRT_DIR, 'partner_crosswalk_detailed_industries.csv')
     paths['_INC_FILE'] = _INC_FILE = os.path.join(_PRT_DIR, '13pa01.xls')
     paths['_AST_FILE'] = _AST_FILE = os.path.join(_PRT_DIR, '13pa03.xls')
